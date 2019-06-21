@@ -33,7 +33,6 @@ class YoloRosWrapper:
         
         while not rospy.is_shutdown():
             (rows,cols,channels) = self.cv_image.shape
-            
             if cols > 60 and rows > 60:
                 detector.stream_img(self.cv_image)
             
