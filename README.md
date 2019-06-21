@@ -38,12 +38,12 @@ Very simple node (yolo.py). *You must specify the location of the your .data con
 ## Example with Kinect
 1. Download example data with weights
 2. Install the [Python Package](https://github.com/apl-ocean-engineering/pytorchYolo).
-3. Edit the YOLO.data file (<path_to_pytorchYolo_python_package>/pytorchYolo/cfg/YOLO.data) to point to the YOLO classes .txt file, cfg file, and weight file. 
+3. Edit the YOLO.data file (<path_to_pytorchYolo_python_package>/cfg/YOLO.data) to point to the YOLO classes .txt file, cfg file, and weight file. 
 2. Launch the kinect
 	- $ roscore
 	- $ roslaunch openni_launch openni.launch
 3. Run the ros node, pointing to the .data file
-	- $ rosrun ros_yolo yolo--data_cfg <path_to_pytorchYolo_python_package>/pytorchYolo/cfg/YOLO.data
+	- $ rosrun ros_yolo yolo--data_cfg <path_to_pytorchYolo_python_package>/cfg/YOLO.data
 
 4. Move camera around and see detection!
 
