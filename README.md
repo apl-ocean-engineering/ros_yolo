@@ -30,7 +30,7 @@ Intructions, [originating here](https://medium.com/@beta_b0t/how-to-setup-ros-wi
 	- source <ws_name>/install/setup.bash --extend
 
 ## Configuration download
-Example weights and configuration can be found [here]().
+Example weights and configuration can be found [here](https://drive.google.com/drive/folders/1VOEoOOTOrzb-vwieegfKXBICpTeckB2F?usp=sharing).
 
 ## Running
 Very simple node (yolo.py). *You must specify the location of the your .data configuration file using the --data_cfg flag*. See the [Python Package](https://github.com/apl-ocean-engineering/pytorchYolo) for documentation. 
