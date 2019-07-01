@@ -10,12 +10,24 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   sensor_msgs
   std_msgs
+  message_generation
+)
+
+add_message_files(
+  FILES
+  prediction.msg
+)
+
+generate_messages(
+  DEPENDENCIES
+  sensor_msgs
+  std_msgs
 )
 
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES ros_yolo
-#  CATKIN_DEPENDS cv_bridge roscpp rospy sensor_msgs std_msgs
+  CATKIN_DEPENDS cv_bridge roscpp rospy sensor_msgs std_msgs message_runtime
 #  DEPENDS system_lib
 )
 
