@@ -2,6 +2,7 @@
 from __future__ import print_function
 import rospy
 from sensor_msgs.msg import CameraInfo, Image
+from ros_yolo.msg import prac
 import cv2
 import numpy as np
 from cv_bridge import CvBridge, CvBridgeError
