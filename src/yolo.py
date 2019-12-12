@@ -63,7 +63,7 @@ class YoloRosWrapper:
                         db.upper_y = sq.upper_y
 
                         db_list.detection_messages.append(db)
-                    db_list.detection_nums = num
+                    db_list.detection_nums = num + 1
 
                     self.detection_publisher.publish(db_list)
 
