@@ -28,9 +28,9 @@ Intructions, [originating here](https://medium.com/@beta_b0t/how-to-setup-ros-wi
 	- $ cd <ws_name>/src
 	- $ git clone -b melodic https://github.com/ros-perception/vision_opencv.git
 4. Clone source code
-        - $ cd <ws_name>/src     
-        - $ git clone https://github.com/apl-ocean-engineering/image_detection_msgs
-        - $ git clone https://github.com/apl-ocean-engineering/ros_yolo
+    - $ cd <ws_name>/src     
+    - $ git clone https://github.com/apl-ocean-engineering/image_detection_msgs  
+    - $ git clone https://github.com/apl-ocean-engineering/ros_yolo  
 5. Build and source the workspace
 	- $ cd <ws_name>
 	- $ catkin build
