@@ -43,7 +43,7 @@ Very simple node (yolo.py). *You must specify the location of the your .data con
 	- $ roscore
 	- $ roslaunch openni_launch openni.launch
 3. Run the ros node, pointing to the .data file
-	- $ rosrun ros_yolo yolo--data_cfg <path_to_pytorchYolo_python_package>/cfg/YOLO.data
+	- $ ./yolo.py --data_cfg <path_to_pytorchYolo_python_package>/cfg/YOLO.data
 
 4. Move camera around and see detection!
 
