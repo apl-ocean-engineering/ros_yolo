@@ -11,7 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   std_msgs
   message_generation
-  manipulation_context_slam_msgs
+  image_detection_msgs
 )
 
  add_message_files(
@@ -28,7 +28,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES ros_yolo
-  CATKIN_DEPENDS cv_bridge roscpp rospy sensor_msgs std_msgs message_runtime manipulation_context_slam_msgs
+  CATKIN_DEPENDS cv_bridge roscpp rospy sensor_msgs std_msgs message_runtime image_detection_msgs
 #  DEPENDS system_lib
 )
 

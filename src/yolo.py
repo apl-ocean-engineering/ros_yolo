@@ -8,7 +8,7 @@ import numpy as np
 from cv_bridge import CvBridge, CvBridgeError
 from pytorchYolo.argLoader import ArgLoader
 from pytorchYolo.detector import YoloLiveVideoStream
-from manipulation_context_slam_msgs.msg import DetectionBox, DetectionBoxesList
+from image_detection_msgs.msg import DetectionBox, DetectionBoxesList
 
 CV_WINDOW = "frame"
 
@@ -33,7 +33,6 @@ class YoloRosWrapper:
     def load_yolo_detector(self):
         argLoader = ArgLoader()
         args = argLoader.args  # parse the command line arguments
-        print(args)
         yoloVideoStream = YoloLiveVideoStream(args)
 
         return yoloVideoStream

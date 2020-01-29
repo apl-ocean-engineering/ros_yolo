@@ -3,9 +3,12 @@
 ## Overview
 ROS wrapper around a PyTorch implementation of the YOLO network [here](https://github.com/apl-ocean-engineering/pytorchYolo). 
 
-## Installation
-This package is a thin wrapper around the core Pytorch Yolo Python package.   
-### Python package installation
+## Requirments
+1. ROS (tested on melodic)
+2. [pytorchYOLO](https://github.com/apl-ocean-engineering/pytorchYolo)
+3. [manipulation context SLAM messages](https://gitlab.com/apl-ocean-engineering/manipulation_context_slam_msgs)
+
+### pytorchYOLO package installation
 Refer to the readme of the [Python Package](https://github.com/apl-ocean-engineering/pytorchYolo) for installation. 
 
 ### Wraper Installation
