@@ -55,10 +55,6 @@ Very simple node (yolo.py). *You must specify the location of the your .data con
 4. Move camera around and see detection!
 
 
-## Demo
-
-See Demo video under video/
-
 
 
 	
